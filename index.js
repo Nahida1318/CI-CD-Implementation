@@ -12,4 +12,4 @@ const server = app.listen(PORT, () => {
 });
 
 // Export both `app` and `server` for testing
-module.exports = { app, server };
+module.exports = app;
